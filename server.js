@@ -36,7 +36,6 @@ connectDB();
 const corsOptions = {
   origin: [
     'https://the-news-daily.vercel.app/', // Deployed frontend
-    'https://the-news-daily-vmzb.onrender.com', // Deployed frontend
     'http://localhost:5173' // Local frontend for development
     
   ],
