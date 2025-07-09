@@ -35,7 +35,7 @@ connectDB();
 
 const corsOptions = {
   origin: [
-    'https://nimble-puppy-db4fdc.netlify.app', // Deployed frontend
+    'https://the-news-daily.vercel.app/', // Deployed frontend
     'http://localhost:5173' // Local frontend for development
     
   ],
