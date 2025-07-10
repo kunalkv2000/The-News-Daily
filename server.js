@@ -28,7 +28,7 @@ const app = express();
 connectDB(); 
 
 const corsOptions = {
-  origin: 'http://the-news-daily-vmzb.onrender.com', // Allow only a specific origin
+  origin: 'https://the-news-daily.vercel.app', // Allow only a specific origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
   credentials: true, // Allow credentials if needed
 };
