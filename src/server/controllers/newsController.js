@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Fetch and store all news
 export const fetchAllNews = async (req, res) => {
-  const { category = 'sports', apiKey } = req.query;  // Get apiKey from query parameters
+  const { category = 'Sports', apiKey } = req.query;  // Get apiKey from query parameters
 
   if (!apiKey) {
     return res.status(400).json({ error: 'API key is missing' });
