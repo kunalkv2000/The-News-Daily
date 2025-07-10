@@ -60,7 +60,7 @@ const SettingsPage = () => {
       });
       if (response.data.message === "User details updated successfully") {
       // alert(response.data.message); // Notify user of success
-      setSuccessMessage('Preferences updated successfully!');
+      setSuccessMessage('Preferences updated successfully! Please check Spam Mail!');
       setUserDetails({
         ...userDetails,
         name: response.data.user.name,
