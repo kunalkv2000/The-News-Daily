@@ -39,12 +39,12 @@ export const fetchAllNews = async (req, res) => {
       res.status(200).json({ message: 'News fetched and stored successfully.' });
     } else {
       console.log('No articles found');
-      res.status(404).json({ message: 'No news articles found.' });
+      res.status(404).json({ message: ' Reached your request limit for today, Check After 24 Hrs. No news articles found.' });
     }
   } catch (err) {
     console.error('Error fetching news:', err);
     
-    res.status(500).json({ error: 'Failed to fetch news.' });
+    res.status(500).json({ error: ' Reached your request limit for today, Check After 24 Hrs. Failed to fetch news.' });
   }
 };
 
@@ -56,7 +56,7 @@ export const getAllNews = async (req, res) => {
     res.status(200).json(news);
   } catch (err) {
     console.error('Error retrieving news:', err);
-    res.status(500).json({ error: 'Failed to retrieve news.' });
+    res.status(500).json({ error: 'Reached your request limit for today, Check After 24 Hrs. Failed to retrieve news.' });
   }
 };
 
