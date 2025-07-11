@@ -1,6 +1,8 @@
 # # Real-Time News Alert System
 A robust, real-time news alert system built with the MERN stack, allowing users to stay updated with breaking news and notifications tailored to their preferences. Users can customize alerts based on news categories, frequency, and preferred notification channels.
 
+https://raw.githubusercontent.com/kunalkv2000/News-App/refs/heads/main/assets/news.png
+
 # Key Features
 📢 Real-Time News Alerts
 Fetch and deliver breaking news updates from multiple sources.
